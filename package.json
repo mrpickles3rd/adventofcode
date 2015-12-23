@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mrpickles3rd/adventofcode/issues"
   },
-  "homepage": "https://github.com/mrpickles3rd/adventofcode"
+  "homepage": "https://github.com/mrpickles3rd/adventofcode",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
