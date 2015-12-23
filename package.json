@@ -1,0 +1,19 @@
+{
+  "name": "adventOfCode",
+  "version": "1.0.0",
+  "description": "Playing with code and and Advent Calendar",
+  "main": "./app/app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrpickles3rd/adventofcode.git"
+  },
+  "author": "Dan B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrpickles3rd/adventofcode/issues"
+  },
+  "homepage": "https://github.com/mrpickles3rd/adventofcode"
+}
