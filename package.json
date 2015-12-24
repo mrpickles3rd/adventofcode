@@ -4,7 +4,8 @@
   "description": "Playing with code and and Advent Calendar",
   "main": "./app/app.js",
   "scripts": {
-    "test": "test"
+    "test": "JASMINE_CONFIG_PATH=jasmine.config.json node_modules/.bin/jasmine",
+    "lint": "node_modules/.bin/eslint tests/**/*test.js ./*.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/mrpickles3rd/adventofcode",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "jasmine": "^2.4.1"
   }
 }
